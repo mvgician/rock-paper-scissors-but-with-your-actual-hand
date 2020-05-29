@@ -1,5 +1,5 @@
 # rock-paper-scissors-but-with-your-actual-hand
-Python + OpenCV implementation of the iconic rock paper scissors game using a convolutional neural network and optical flow to play using your actual hand (and a camera). The machine to play against is extracted from http://www.rpscontest.com/
+Keras + OpenCV implementation of the iconic rock paper scissors game using a convolutional neural network and optical flow to play using your actual hand (and a camera). The machine to play against is extracted from http://www.rpscontest.com/
 
 Hand gesture recognition based on: https://github.com/anantSinghCross/realtime-hand-gesture-recognition
 
@@ -34,7 +34,9 @@ https://i.imgur.com/r3R7oBh.png
 
 **Q: What are the requirements and dependencies?**
 
-A:
+A: Keras/TensorFlow, OpenCV, numpy, umucv
+
+I do not know the proper nomenclature to state dependencies and my packages are a mess due to other projects. Installing Anaconda and then using pip install to add any missing packages should do the trick.
 
 **Q: Why is X done like Y when it could be done like Z, which is way more efficient and straightforward?**
 
